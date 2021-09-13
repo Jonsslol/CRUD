@@ -41,8 +41,16 @@ crud.pushButton.clicked.connect(funcao_principal)
 crud.show()
 app.exec()
 
+#-----My SQL-----#
+
 # criando tabela
 """ create table funcionarios_(id INT NOT NULL AUTO_INCREMENT,Nome VARCHAR(50),departamento VARCHAR(50),CPF DOUBLE,contrato VARCHAR(20),PRIMARY KEY (id));"""
 
 #INSERT INTO funcionarios_ (Nome,departamento,CPF,contrato) VALUES ("JOAO","T.I",4848554466,"estagio");
 
+#-----Comandos----#
+
+# use funcionarios_; = Entrar no banco de dados 
+# show tables; = mostrar as tablelas do banco
+#describe funcionarios_ = mostrar a estrutura da tabela
+# select * from funcionarios_ 
